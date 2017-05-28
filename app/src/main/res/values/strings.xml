@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Calculate</string>
+    <string name="tv_main_start_calculate_text">Start calculate</string>
+</resources>

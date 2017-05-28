@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorDigit</item>
+    </style>
+
+    <style name="TextViewDisplay">
+        <item name="android:background">@drawable/tv_main_display</item>
+        <item name="android:padding">@dimen/tv_main_display_padding</item>
+        <item name="android:layout_marginBottom">@dimen/tv_main_display_marginBottom</item>
+    </style>
+
+    <style name="ButtonDefault">
+        <item name="android:layout_margin">@dimen/btn_main_digit_padding</item>
+    </style>
+
+    <style name="ButtonDigit" parent="@style/ButtonDefault">
+        <item name="android:background">@drawable/btn_main_digit</item>
+    </style>
+
+    <style name="ButtonOperand" parent="@style/ButtonDefault">
+        <item name="android:background">@drawable/btn_main_operand</item>
+    </style>
+
+</resources>

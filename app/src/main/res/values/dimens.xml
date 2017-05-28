@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tv_main_display_padding">10dp</dimen>
+    <dimen name="tv_main_display_marginBottom">1dp</dimen>
+    <dimen name="btn_main_digit_padding">5dp</dimen>
+    <dimen name="btn_main_digit_0">186dp</dimen>
+</resources>
